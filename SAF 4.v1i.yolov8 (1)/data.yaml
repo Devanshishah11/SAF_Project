@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Blurry', 'ClassicalEvaporation', 'DiffusiveMixing', 'TransitionalMixing']
+
+roboflow:
+  workspace: saf-4ejax
+  project: saf-4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saf-4ejax/saf-4/dataset/1
