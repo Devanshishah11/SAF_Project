@@ -1,0 +1,8 @@
+#path: /path/to/your/dataset  # replace with the actual path to your dataset
+
+train: C:/Users/ds678/OneDrive - University of Sussex/SAF_Project/SAF 4.v1i.yolov8 (1)/train/images
+val: C:/Users/ds678/OneDrive - University of Sussex/SAF_Project/SAF 4.v1i.yolov8 (1)/valid/images
+test: C:/Users/ds678/OneDrive - University of Sussex/SAF_Project/SAF 4.v1i.yolov8 (1)/test/images
+
+nc: 4  # number of classes (replace with your actual number)
+names: ['ClassicalEvaporation', 'TransitionalMixing', 'DiffusiveMixing', 'Blurry']  # replace with your actual class names

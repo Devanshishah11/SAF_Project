@@ -1,0 +1,12 @@
+# custom_dataset.yaml
+#path: C:/Users/devan/OneDrive - University of Sussex/SAF_Project/Instance_seg_labels
+train: C:/Users/ds678/OneDrive - University of Sussex/SAF_Project/Instance_seg_labels/output__SAF2022/train/images
+val: C:/Users/ds678/OneDrive - University of Sussex/SAF_Project/Instance_seg_labels/output__SAF2022/val/images
+
+
+# Classes
+names:
+  0: ClassicalEvaporation
+  1: TransitionalMixing
+  2: DiffusiveMixing
+  3: Spray
